@@ -12,7 +12,7 @@ def calculate_grade(marks):
     else:
         return "F"
 
- def display_result(name, marks):
+ def display_result(name, marks)
     grade = calculate_grade(marks)
 
     print("Student:", name)
