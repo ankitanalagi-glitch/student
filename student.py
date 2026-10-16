@@ -12,15 +12,15 @@ def calculate_grade(marks):
     else:
         return "F"
 
- def display_result(name, marks)
+ def display_result(name, marks):
     grade = calculate_grade(marks)
 
     print("Student:", name)
     print("Marks:", marks)
     print("Grade:", grade)
 
-name = float(sys.argv[1])
-marks = float(ays.argv[2])
+name = (sys.argv[1])
+marks = (ays.argv[2])
 
 if name == "":
     name = "Student"
